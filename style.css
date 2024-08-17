@@ -1,0 +1,106 @@
+body{
+    /* background-color: skyblue; */
+    background-image: linear-gradient(to right, #211A2D , #513C7A , #664A9C , #875FD4);
+}
+
+.row .col-6 .block{
+    background-color: #F2EBFF;
+    border-radius:  600px;
+    width: 600px;
+    height: 600px;
+    /* display: inline-block;
+    float: left; */
+}
+.row{
+    margin-top: 120px;
+}
+/* .over-img{
+    position: relative;
+} */
+.row .col-6 .over-img .phn1{
+    width: 260px;
+    height: 500px;
+    background-image: linear-gradient(to top, #C0ADE5,  #E2D4FF , #FFFFFF);
+    position: absolute;
+    top: 20%;
+    left: 52%;
+    border-radius: 20px;
+}
+.row .col-6 .over-img .phn2{
+    width: 260px;
+    height: 500px;
+    /* background-color: rgba(0, 0, 0, 0.736); */
+    background-color: #4B5971;
+    position: absolute;
+    top: 26%;
+    left: 72%;
+    border-radius: 20px;
+}
+h1{
+    color: white;
+    font-size: 100px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.age{
+    display: flex;
+    padding: 20px 20px 0px;
+    margin-top: 50px;
+}
+.row .col-6 .over-img .phn2 .age label{
+    font-size: 17px;
+}
+#input-1{
+    width: 120px;
+    margin-left:40px;
+}
+.phn2 label{
+    color: white;
+}
+.weight{
+    display: flex;
+    padding: 40px 20px 0px;
+}
+.height{
+    display: flex;
+    padding: 40px 20px 0px;
+}
+.gender{
+    padding: 40px 20px 0px;
+}
+#input-2,#input-3{
+    width: 120px;
+    margin-left:10px;
+}
+.buttons{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.phn1 p{
+    margin-top: 200px;
+    padding: 0px 30px;
+}
+/* .phn1 h6{
+    margin: 30px 10px 13px;
+    font-weight: 700;
+}
+.phn1 ul li{
+    list-style-type: none;
+} */
+#bmi-value{
+
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 40px;
+    display: inline-block;
+}
+#para-1{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 800;
+   
+}
